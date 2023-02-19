@@ -17,7 +17,7 @@ export const Statistics = ({ title, stats }) => {
 
       <StatList>
         {stats.map(({ id, label, percentage }) => (
-          <Item style={styleItem} key={id}>
+          <Item style={styleItem.backgroundColor} key={id}>
             <span className="label">{label}</span>
             <span className="percentage">{percentage}</span>
           </Item>
