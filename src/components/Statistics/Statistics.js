@@ -7,9 +7,7 @@ import {
   Item,
   getRandomHexColor,
 } from './Statistics.styled';
-const styleItem = {
-  backgroundColor: getRandomHexColor(),
-};
+
 export const Statistics = ({ title, stats }) => {
   return (
     <Staticstics>
